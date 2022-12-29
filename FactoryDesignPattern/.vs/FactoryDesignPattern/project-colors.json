@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "0928b92d-0813-4403-8b39-a3d49bfaf8ec": {
+      "ProjectGuid": "0928b92d-0813-4403-8b39-a3d49bfaf8ec",
+      "DisplayName": "FactoryDesignPattern",
+      "ColorIndex": 0
+    }
+  },
+  "NextColorIndex": 1
+}
