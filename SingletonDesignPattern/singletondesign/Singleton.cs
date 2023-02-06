@@ -17,27 +17,6 @@ namespace singletondesign
             counter++;
         }
 
-        // thread safety object with lock
-
-        //private static Singleton instance;
-        //public static Singleton Instance
-        //{
-        //    get
-        //    {
-        //        if (instance == null)
-        //        {
-        //            lock (obj)
-        //            {
-        //                if (instance == null)
-        //                {
-        //                    instance = new Singleton();
-        //                }
-        //            }
-        //        }
-        //        return instance;
-        //    }
-        //}
-
         //Eager loading of object
 
 
@@ -60,7 +39,7 @@ namespace singletondesign
                 return instance.Value;
             }
         }
-        public void printInfo()
+        public void PrintInfo()
         {
             Console.WriteLine("This is printinfo method in singleton class");
         }

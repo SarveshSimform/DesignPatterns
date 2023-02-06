@@ -11,20 +11,21 @@ namespace singletondesign
     {
         public static void Main(string[] args)
         {
-            Parallel.Invoke(()=>obj1Info(),()=>obj2Info());
+            obj1Info();
+            obj2Info();
             LogInformation();
             Console.ReadKey();
         }
         private static void obj1Info()
         {
             Singleton obj1 = Singleton.Instance;
-            obj1.printInfo();
+            obj1.PrintInfo();
             Console.WriteLine(obj1.GetHashCode());
         }
         private static void obj2Info()
         {
             Singleton obj2 = Singleton.Instance;
-            obj2.printInfo();
+            obj2.PrintInfo();
             Console.WriteLine(obj2.GetHashCode());
         }
         public static void LogInformation()
